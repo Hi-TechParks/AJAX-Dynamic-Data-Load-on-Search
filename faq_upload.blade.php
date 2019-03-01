@@ -1,18 +1,5 @@
 @extends('layouts.app')
 @section('main-content')   
-    <section class="main_contents">
-        <div class="container-fluid">
-            <div class="panel panel-primary" style="padding: 15px">
-                <div class="row">
-                    <div class="col-sm-4 col-md-4">
-                        <h3 style="margin: 0"><i class="fas fa-cogs"></i> Dashbord<span class="" style="padding: 0px 10px; border-left: 3px solid #031b4e; margin: 0px 10px">Upload Faq</span></h3>
-                    </div>
-                    
-                    <div class="col-sm-6 col-md-8">
-                        
-                    </div>
-                </div>
-            </div>
             
             
             <!-- ==========================  Start FAQ Upload  =============================  -->

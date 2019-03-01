@@ -16,15 +16,7 @@ class AjaxController extends Controller
      */
     public function index()
     {
-        //
-        /*$msg = "This is a simple message.";
-        return response()->json(array('msg'=> $msg), 200);*/
-
-        $pro_faqs_no = DB::table('KOSM_PROGRAM_QA')
-                            ->select('KOSM_PROGRAM_QA.*')
-                            ->get();
-
-        return $pro_faqs_no;
+		
     }
 
     /**
